@@ -8,7 +8,7 @@ library(scales)
 
 
 # Connect to database
-con <- dbConnect(RSQLite::SQLite(), "/Users/esther/Desktop/G4/30%_library.db")
+con <- dbConnect(RSQLite::SQLite(), your_data_path)
 
 # Query to get top 10% rows based on any read percentage
 query <- "

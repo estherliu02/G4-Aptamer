@@ -4,7 +4,7 @@ library(ggplot2)
 library(patchwork)
 
 # Connect to SQLite database
-con <- dbConnect(RSQLite::SQLite(), "/Users/esther/Desktop/G4/30%_library.db")
+con <- dbConnect(RSQLite::SQLite(), your_data_path)
 
 # Query data
 query <- "
