@@ -25,10 +25,13 @@ project-root/
 │   ├── qgrs/                 # Output from QGRS Mapper
 │   └── result.db             # Final SQLite database
 │
+├── diagram/                  # Scripts to generate figures for the paper (Figures 5–10, 11A, 12A)
+│
 └── library/                  # External tools and environments
     ├── g4rna_screener/       # Cloned repo for G4RNA Screener
     └── g4rna_env/            # Python 2 virtual environment for screener
 ```
+
 ---
 
 ## 🧰 Setup Instructions
