@@ -7,7 +7,8 @@ library(tidyr)
 library(scales)
 
 # Connect to database
-con <- dbConnect(RSQLite::SQLite(), your_data_path)
+db_path <- file.path("..", "results", "result.db")
+con <- dbConnect(RSQLite::SQLite(), db_path)
 
 # Query to get top 10% rows based on any round percentage
 query <- "

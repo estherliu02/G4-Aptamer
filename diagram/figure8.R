@@ -6,7 +6,8 @@ library(ComplexUpset)
 library(ggplot2)
 
 # === Connect to SQLite Database ===
-con <- dbConnect(RSQLite::SQLite(), your_data_path)
+db_path <- file.path("..", "results", "result.db")
+con <- dbConnect(RSQLite::SQLite(), db_path)
 
 # === Query Data ===
 df <- dbGetQuery(con, "

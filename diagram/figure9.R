@@ -5,7 +5,8 @@ library(ggplot2)
 library(scales)
 
 # Connect to SQLite
-con <- dbConnect(RSQLite::SQLite(), your_data_path)
+db_path <- file.path("..", "results", "result.db")
+con <- dbConnect(RSQLite::SQLite(), db_path)
 
 # Read data
 query <- "
