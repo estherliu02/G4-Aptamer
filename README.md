@@ -29,9 +29,6 @@ project-root/
     ├── g4rna_screener/       # Cloned repo for G4RNA Screener
     └── g4rna_env/            # Python 2 virtual environment for screener
 ```
-
----
-
 ---
 
 ## 🧰 Setup Instructions
